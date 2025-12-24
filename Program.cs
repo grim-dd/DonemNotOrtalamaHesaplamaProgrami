@@ -45,23 +45,9 @@ Console.Write("Yapay Zeka Okuryazarlığı Vize Notunuzu Giriniz : ");
 double YapayVizeNotu = Convert.ToDouble(Console.ReadLine());
 Console.Write("Yapay Zeka Okuryazarlığı Final Notunuzu Giriniz : ");
 double YapayFinalNotu = Convert.ToDouble(Console.ReadLine());
-Console.Write("Yapay Zeka Okuryazarlığı 1. Quiz Notunuzu Giriniz : ");
-double YapayQuizNotu1 = Convert.ToDouble(Console.ReadLine());
-Console.Write("Yapay Zeka Okuryazarlığı 2. Quiz Notunuzu Giriniz : ");
-double YapayQuizNotu2 = Convert.ToDouble(Console.ReadLine());
-Console.Write("Yapay Zeka Okuryazarlığı 3. Quiz Notunuzu Giriniz : ");
-double YapayQuizNotu3 = Convert.ToDouble(Console.ReadLine());
-Console.Write("Yapay Zeka Okuryazarlığı 4. Quiz Notunuzu Giriniz : ");
-double YapayQuizNotu4 = Convert.ToDouble(Console.ReadLine());
-Console.Write("Yapay Zeka Okuryazarlığı 5. Quiz Notunuzu Giriniz : ");
-double YapayQuizNotu5 = Convert.ToDouble(Console.ReadLine());
-Console.Write("Yapay Zeka Okuryazarlığı 6. Quiz Notunuzu Giriniz : ");
-double YapayQuizNotu6 = Convert.ToDouble(Console.ReadLine());
-Console.Write("Yapay Zeka Okuryazarlığı 7. Quiz Notunuzu Giriniz : ");
-double YapayQuizNotu7 = Convert.ToDouble(Console.ReadLine());
-Console.Write("Yapay Zeka Okuryazarlığı 8. Quiz Notunuzu Giriniz : ");
-double YapayQuizNotu8 = Convert.ToDouble(Console.ReadLine());
-double YapayOrtalama = (YapayVizeNotu * 0.35) + (YapayFinalNotu * 0.5) + (((YapayQuizNotu1 + YapayQuizNotu2 + YapayQuizNotu3 + YapayQuizNotu4 + YapayQuizNotu5 + YapayQuizNotu6 + YapayQuizNotu7 + YapayQuizNotu8) / 8) * 0.15);
+Console.Write("Yapay Zeka Okuryazarlığı Quiz Ortalamanızı Giriniz : ");
+double YapayQuizNotu = Convert.ToDouble(Console.ReadLine());
+double YapayOrtalama = (YapayVizeNotu * 0.35) + (YapayFinalNotu * 0.5) + (YapayQuizNotu * 0.15);
 Console.WriteLine("Yapay Zeka Okuryazarlığı Ortalaması : " + YapayOrtalama);
 
 //Atatürk İlkeleri ve İnkılap Tarihi I Dersi Ortalama Hesaplama
